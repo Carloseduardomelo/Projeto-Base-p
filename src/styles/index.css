@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+
+    stroke-linecap: square;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+
+
+    background: url('../assets/images/bg-pattern-desktop.svg') no-repeat center center;
+}
+
+header {
+    width: 100%;
+    height: 10%;
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+    padding-left: 40px;
+}
+
+main {
+    width: 100%;
+    height: 90%;
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#title-descri {
+    width: 100%;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: 15px;
+
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#name-grand {
+    width: 100%;
+
+    display: flex;
+    align-items: start;
+    justify-content: center;
+
+    text-align: justify;
+}
+#name-grand h2 {
+    font-weight: 600;
+
+    text-align: center;
+    font-size: 40px;
+
+    line-height: 40px;
+}
+
+#title {
+    font-weight: 300;
+    background: linear-gradient(to top, #413a3a ,#f96262 );
+
+    display: inline-block;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    color: transparent;
+
+}
+
+#descricoe{
+    width: 90%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    font-weight: 300;
+    font-size: 16px;
+
+    color: #f96262;
+
+    line-height: 25px;
+}
+
+#input-section{
+    width: 100%;
+    height: 70%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border: 1px solid #00000071;
+    border-radius: 30px;
+
+    overflow: hidden;
+}
+
+#error{
+    width: 5%;
+    display: none;
+}
+
+#input-section input{
+    width: 55%;
+    height: 100%;
+
+    padding-left: 20px;
+
+    border: none;
+
+    outline: 0;
+}
+
+#arrow{
+    width: 25%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #f96262;
+    
+    border-radius: 90px 0% 0% 90px;
+}
+
+#section-input{
+    width: 90%;
+    height: 12%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    overflow: hidden;
+}
+
+#p-error{
+    width: 100%;
+    display: none;
+    align-items: center;
+    
+    padding-left: 30px;
+
+    color: red;
+}
